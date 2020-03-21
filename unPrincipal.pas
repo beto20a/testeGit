@@ -31,6 +31,8 @@ procedure TForm2.Button1Click(Sender: TObject);
 begin
   ShowMessage('Ola');
   ShowMessage('Mensagem dois');
+  ShowMessage('Mensagem três');
+
 end;
 
 procedure TForm2.Button2Click(Sender: TObject);
