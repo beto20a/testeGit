@@ -9,7 +9,9 @@ uses
 type
   TForm2 = class(TForm)
     Button1: TButton;
+    Button2: TButton;
     procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -23,10 +25,17 @@ implementation
 
 {$R *.dfm}
 
+uses unUtil;
+
 procedure TForm2.Button1Click(Sender: TObject);
 begin
   ShowMessage('Ola');
   ShowMessage('Mensagem dois');
+end;
+
+procedure TForm2.Button2Click(Sender: TObject);
+begin
+  TUtil.Mensagem('Testando nova mensagem');
 end;
 
 end.

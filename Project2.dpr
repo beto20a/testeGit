@@ -2,7 +2,8 @@ program Project2;
 
 uses
   Vcl.Forms,
-  unPrincipal in 'unPrincipal.pas' {Form2};
+  unPrincipal in 'unPrincipal.pas' {Form2},
+  unUtil in 'unUtil.pas';
 
 {$R *.res}
 
