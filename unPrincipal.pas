@@ -26,6 +26,7 @@ implementation
 procedure TForm2.Button1Click(Sender: TObject);
 begin
   ShowMessage('Ola');
+  ShowMessage('Mensagem dois');
 end;
 
 end.
